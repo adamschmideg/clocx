@@ -1,6 +1,6 @@
 (ns docx.styles
   (:use 
-    [docx write]))
+    [docx write util]))
 
 (defn styles
   [& style-specs]
